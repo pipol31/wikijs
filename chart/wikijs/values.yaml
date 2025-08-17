@@ -118,7 +118,7 @@ volumeMounts:
  - name: database
    mountPath: /wiki/database.sqlite
    subPath: database.sqlite
-#   readOnly: true
+   readOnly: false
 
 nodeSelector: {}
 
