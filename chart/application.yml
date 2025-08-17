@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/pipol31/wiki.js
+    repoURL: https://github.com/pipol31/wikijs
     path: chart/wiki.js
   destination:
     server: "https://kubernetes.default.svc"
