@@ -10,7 +10,7 @@ spec:
     path: chart/wiki.js
   destination:
     server: "https://kubernetes.default.svc"
-    namespace: wiki.js
+    namespace: wikijs
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
