@@ -120,7 +120,8 @@ volumeMounts:
    subPath: database.sqlite
    readOnly: false
 
-nodeSelector: {}
+nodeSelector:
+  kubernetes.io/arch: amd64
 
 tolerations: []
 
