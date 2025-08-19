@@ -116,7 +116,7 @@ volumes:
 # Additional volumeMounts on the output Deployment definition.
 volumeMounts: 
  - name: database
-   mountPath: /wiki/database.sqlite
+   mountPath: /wiki
    subPath: database.sqlite
    readOnly: false
 
