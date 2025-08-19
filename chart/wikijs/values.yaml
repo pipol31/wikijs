@@ -108,7 +108,8 @@ autoscaling:
 volumes: 
  - name: database
    hostPath:
-     path: /tmp/wikijs/database.sqlite
+     path: /tmp/wikijs
+       #path: /tmp/wikijs/database.sqlite
 #   secret:
 #     secretName: mysecret
 #     optional: false
@@ -117,8 +118,8 @@ volumes:
 volumeMounts: 
  - name: database
    mountPath: /wiki
-   subPath: database.sqlite
-   readOnly: false
+     #subPath: database.sqlite
+     #readOnly: false
 
 nodeSelector:
   kubernetes.io/arch: amd64
